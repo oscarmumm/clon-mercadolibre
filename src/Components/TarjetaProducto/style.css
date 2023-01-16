@@ -15,17 +15,13 @@
 }
 
 .tarjetaProducto_contenedor:hover{
-  box-shadow: 5px 8px 10px rgb(207, 207, 207), -5px 8px 10px rgb(207, 207, 207);
+  box-shadow: 6px 10px 10px rgb(207, 207, 207), -6px 10px 10px rgb(207, 207, 207);
 }
 
-img {
-  max-width: 224px;
-  max-height: 175px;
-}
 
 .tarjetaProducto {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .tarjetaProducto_fila{
@@ -35,6 +31,8 @@ img {
 }
 
 .tarjetaProducto_fila-foto{
+  max-width: 224px;
+  max-height: 175px;
   height: 250px;
 }
 
@@ -94,13 +92,4 @@ img {
 
 .tarjetaProducto_descuento-negrita{
   font-weight: bold;
-}
-
-@keyframes datosAparecer {
-  0% {
-    display: none;
-  }
-  100% {
-    display: flex;
-  }
 }

@@ -1,0 +1,43 @@
+.panelDeBusqueda{
+  width: 90vw;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  padding: 1rem;
+}
+
+.tarjetaProductoB{
+  grid-column: 4/12;
+}
+
+.ordenarPor{
+  place-self: end;
+  margin: 1rem;
+  grid-column: 1/12;
+}
+
+.seleccionDeOrden{
+  border: none;
+  background: none;
+}
+
+.filtrosDeBusqueda{
+  padding: 1rem;
+  grid-column: 2/4;
+  text-align: left;
+}
+
+.tituloDeFiltro{
+  color: #333333;
+}
+
+.seccionCategorias{
+  display: flex;
+  flex-direction: column;
+}
+
+.categoria{
+  color: #666666;
+  font-size: 14px;
+  cursor: pointer;
+  margin: .25rem 0;
+}

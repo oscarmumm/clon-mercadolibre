@@ -1,0 +1,33 @@
+.tarjetaProductoB_contenedor{
+  width: 100%;
+  display: flex;
+  background-color: #fff;
+  border-bottom: 1px solid #EBEBEB;
+  max-height: 180px;
+}
+
+.tarjetaProductoB_fila-foto{
+  max-width: 224px;
+  max-height: 175px;
+  height: 250px;
+  padding: 1rem;
+}
+
+.tarjetaProductoB_columna-uno{
+  width:30%;
+}
+
+.tarjetaProductoB_columna-dos{
+  width: 70%;
+  display: flex;
+  
+}
+
+.tarjetaProductoB_titulo{
+  font-weight: 300;
+}
+
+.tarjetaProductoB_textoSecundario-tachado{
+  text-decoration: solid line-through 1px;
+  display: block;
+}
