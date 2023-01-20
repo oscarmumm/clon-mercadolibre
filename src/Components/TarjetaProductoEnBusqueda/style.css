@@ -13,6 +13,12 @@
   padding: 1rem;
 }
 
+.tarjetaProductoB_fila-foto img{
+  max-width: 80%;
+  height: auto;
+  max-height: 80%;
+}
+
 .tarjetaProductoB_columna-uno{
   width:30%;
 }
